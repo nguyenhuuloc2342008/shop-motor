@@ -1,0 +1,105 @@
+.detailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imageSection {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.infoSection {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.infoSection h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.infoSection p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.buyButton,
+.likeButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buyButton {
+  background-color: #0070f3;
+  color: white;
+}
+
+.buyButton:hover {
+  background-color: #005bb5;
+}
+
+.likeButton {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.likeButton:hover {
+  background-color: #ffcdd2;
+}
+.relatedSection {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.relatedTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.relatedList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.relatedItem {
+  flex: 1 1 200px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.relatedItem h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.detailLink {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0070f3;
+  text-decoration: underline;
+  font-size: 14px;
+}
